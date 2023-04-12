@@ -6,4 +6,4 @@ if not exist bin (
 )
 
 echo  *** Compilando projeto ***
-javac -sourcepath src -d bin src\*.java
+javac -sourcepath src\main\java -d bin src\main\java\*.java
